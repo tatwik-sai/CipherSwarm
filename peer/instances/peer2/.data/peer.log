@@ -1,0 +1,591 @@
+
+============================================================
+Peer session started: 2026-04-30 16:45:06
+============================================================
+[16:45:13 INFO main.c:71] Identity saved: peer_id=bacf190b236a49cc203598c053f5dc57d1477b23 username=shiva
+[16:45:13 INFO main.c:47] Identity loaded: peer_id=bacf190b236a49cc203598c053f5dc57d1477b23 username=shiva
+[16:45:15 INFO network.c:242] Peer listener started on port 6002
+[16:45:52 INFO network.c:58] Added peer [0]: 615c34df6a10001ccc5bce9d476d023400370508 (127.0.0.1:6001)
+[16:45:52 INFO disk.c:136] Created empty file: peer/instances/peer2/downloads/file.pdf (8214640 bytes)
+[16:45:52 INFO download.c:171] Starting download: file.pdf (32 pieces)
+[16:45:52 DEBUG network.c:126] Received bitfield from 615c34df6a10001ccc5bce9d476d023400370508 (32 pieces)
+[16:45:53 DEBUG scheduler.c:77] Scheduler: selected piece 0 (availability=1) from peer 615c34df6a10001ccc5bce9d476d023400370508
+[16:45:53 INFO download.c:77] Requesting piece 1/32 from 615c34df6a10001ccc5bce9d476d023400370508
+[16:45:53 DEBUG disk.c:66] Wrote piece 0 (262144 bytes) to peer/instances/peer2/downloads/file.pdf
+[16:45:53 INFO network.c:169] ✓ Piece 1/32 downloaded and verified
+[16:45:53 DEBUG scheduler.c:77] Scheduler: selected piece 1 (availability=1) from peer 615c34df6a10001ccc5bce9d476d023400370508
+[16:45:53 INFO download.c:77] Requesting piece 2/32 from 615c34df6a10001ccc5bce9d476d023400370508
+[16:45:53 DEBUG disk.c:66] Wrote piece 1 (262144 bytes) to peer/instances/peer2/downloads/file.pdf
+[16:45:53 INFO network.c:169] ✓ Piece 2/32 downloaded and verified
+[16:45:53 DEBUG scheduler.c:77] Scheduler: selected piece 2 (availability=1) from peer 615c34df6a10001ccc5bce9d476d023400370508
+[16:45:53 INFO download.c:77] Requesting piece 3/32 from 615c34df6a10001ccc5bce9d476d023400370508
+[16:45:53 DEBUG disk.c:66] Wrote piece 2 (262144 bytes) to peer/instances/peer2/downloads/file.pdf
+[16:45:53 INFO network.c:169] ✓ Piece 3/32 downloaded and verified
+[16:45:53 DEBUG scheduler.c:77] Scheduler: selected piece 3 (availability=1) from peer 615c34df6a10001ccc5bce9d476d023400370508
+[16:45:53 INFO download.c:77] Requesting piece 4/32 from 615c34df6a10001ccc5bce9d476d023400370508
+[16:45:53 DEBUG disk.c:66] Wrote piece 3 (262144 bytes) to peer/instances/peer2/downloads/file.pdf
+[16:45:53 INFO network.c:169] ✓ Piece 4/32 downloaded and verified
+[16:45:53 DEBUG scheduler.c:77] Scheduler: selected piece 4 (availability=1) from peer 615c34df6a10001ccc5bce9d476d023400370508
+[16:45:53 INFO download.c:77] Requesting piece 5/32 from 615c34df6a10001ccc5bce9d476d023400370508
+[16:45:53 DEBUG disk.c:66] Wrote piece 4 (262144 bytes) to peer/instances/peer2/downloads/file.pdf
+[16:45:53 INFO network.c:169] ✓ Piece 5/32 downloaded and verified
+[16:45:53 DEBUG scheduler.c:77] Scheduler: selected piece 5 (availability=1) from peer 615c34df6a10001ccc5bce9d476d023400370508
+[16:45:53 INFO download.c:77] Requesting piece 6/32 from 615c34df6a10001ccc5bce9d476d023400370508
+[16:45:53 DEBUG disk.c:66] Wrote piece 5 (262144 bytes) to peer/instances/peer2/downloads/file.pdf
+[16:45:53 INFO network.c:169] ✓ Piece 6/32 downloaded and verified
+[16:45:53 DEBUG scheduler.c:77] Scheduler: selected piece 6 (availability=1) from peer 615c34df6a10001ccc5bce9d476d023400370508
+[16:45:53 INFO download.c:77] Requesting piece 7/32 from 615c34df6a10001ccc5bce9d476d023400370508
+[16:45:53 DEBUG disk.c:66] Wrote piece 6 (262144 bytes) to peer/instances/peer2/downloads/file.pdf
+[16:45:53 INFO network.c:169] ✓ Piece 7/32 downloaded and verified
+[16:45:53 DEBUG scheduler.c:77] Scheduler: selected piece 7 (availability=1) from peer 615c34df6a10001ccc5bce9d476d023400370508
+[16:45:53 INFO download.c:77] Requesting piece 8/32 from 615c34df6a10001ccc5bce9d476d023400370508
+[16:45:53 DEBUG disk.c:66] Wrote piece 7 (262144 bytes) to peer/instances/peer2/downloads/file.pdf
+[16:45:53 INFO network.c:169] ✓ Piece 8/32 downloaded and verified
+[16:45:54 DEBUG scheduler.c:77] Scheduler: selected piece 8 (availability=1) from peer 615c34df6a10001ccc5bce9d476d023400370508
+[16:45:54 INFO download.c:77] Requesting piece 9/32 from 615c34df6a10001ccc5bce9d476d023400370508
+[16:45:54 DEBUG disk.c:66] Wrote piece 8 (262144 bytes) to peer/instances/peer2/downloads/file.pdf
+[16:45:54 INFO network.c:169] ✓ Piece 9/32 downloaded and verified
+[16:45:54 DEBUG scheduler.c:77] Scheduler: selected piece 9 (availability=1) from peer 615c34df6a10001ccc5bce9d476d023400370508
+[16:45:54 INFO download.c:77] Requesting piece 10/32 from 615c34df6a10001ccc5bce9d476d023400370508
+[16:45:54 DEBUG disk.c:66] Wrote piece 9 (262144 bytes) to peer/instances/peer2/downloads/file.pdf
+[16:45:54 INFO network.c:169] ✓ Piece 10/32 downloaded and verified
+[16:45:54 DEBUG scheduler.c:77] Scheduler: selected piece 10 (availability=1) from peer 615c34df6a10001ccc5bce9d476d023400370508
+[16:45:54 INFO download.c:77] Requesting piece 11/32 from 615c34df6a10001ccc5bce9d476d023400370508
+[16:45:54 DEBUG disk.c:66] Wrote piece 10 (262144 bytes) to peer/instances/peer2/downloads/file.pdf
+[16:45:54 INFO network.c:169] ✓ Piece 11/32 downloaded and verified
+[16:45:54 DEBUG scheduler.c:77] Scheduler: selected piece 11 (availability=1) from peer 615c34df6a10001ccc5bce9d476d023400370508
+[16:45:54 INFO download.c:77] Requesting piece 12/32 from 615c34df6a10001ccc5bce9d476d023400370508
+[16:45:54 DEBUG disk.c:66] Wrote piece 11 (262144 bytes) to peer/instances/peer2/downloads/file.pdf
+[16:45:54 INFO network.c:169] ✓ Piece 12/32 downloaded and verified
+[16:45:54 DEBUG scheduler.c:77] Scheduler: selected piece 12 (availability=1) from peer 615c34df6a10001ccc5bce9d476d023400370508
+[16:45:54 INFO download.c:77] Requesting piece 13/32 from 615c34df6a10001ccc5bce9d476d023400370508
+[16:45:54 DEBUG disk.c:66] Wrote piece 12 (262144 bytes) to peer/instances/peer2/downloads/file.pdf
+[16:45:54 INFO network.c:169] ✓ Piece 13/32 downloaded and verified
+[16:45:54 DEBUG scheduler.c:77] Scheduler: selected piece 13 (availability=1) from peer 615c34df6a10001ccc5bce9d476d023400370508
+[16:45:54 INFO download.c:77] Requesting piece 14/32 from 615c34df6a10001ccc5bce9d476d023400370508
+[16:45:54 DEBUG disk.c:66] Wrote piece 13 (262144 bytes) to peer/instances/peer2/downloads/file.pdf
+[16:45:54 INFO network.c:169] ✓ Piece 14/32 downloaded and verified
+[16:45:54 DEBUG scheduler.c:77] Scheduler: selected piece 14 (availability=1) from peer 615c34df6a10001ccc5bce9d476d023400370508
+[16:45:54 INFO download.c:77] Requesting piece 15/32 from 615c34df6a10001ccc5bce9d476d023400370508
+[16:45:54 DEBUG disk.c:66] Wrote piece 14 (262144 bytes) to peer/instances/peer2/downloads/file.pdf
+[16:45:54 INFO network.c:169] ✓ Piece 15/32 downloaded and verified
+[16:45:54 DEBUG scheduler.c:77] Scheduler: selected piece 15 (availability=1) from peer 615c34df6a10001ccc5bce9d476d023400370508
+[16:45:54 INFO download.c:77] Requesting piece 16/32 from 615c34df6a10001ccc5bce9d476d023400370508
+[16:45:54 DEBUG disk.c:66] Wrote piece 15 (262144 bytes) to peer/instances/peer2/downloads/file.pdf
+[16:45:54 INFO network.c:169] ✓ Piece 16/32 downloaded and verified
+[16:45:54 DEBUG scheduler.c:77] Scheduler: selected piece 16 (availability=1) from peer 615c34df6a10001ccc5bce9d476d023400370508
+[16:45:54 INFO download.c:77] Requesting piece 17/32 from 615c34df6a10001ccc5bce9d476d023400370508
+[16:45:54 DEBUG disk.c:66] Wrote piece 16 (262144 bytes) to peer/instances/peer2/downloads/file.pdf
+[16:45:54 INFO network.c:169] ✓ Piece 17/32 downloaded and verified
+[16:45:54 DEBUG scheduler.c:77] Scheduler: selected piece 17 (availability=1) from peer 615c34df6a10001ccc5bce9d476d023400370508
+[16:45:54 INFO download.c:77] Requesting piece 18/32 from 615c34df6a10001ccc5bce9d476d023400370508
+[16:45:54 DEBUG disk.c:66] Wrote piece 17 (262144 bytes) to peer/instances/peer2/downloads/file.pdf
+[16:45:54 INFO network.c:169] ✓ Piece 18/32 downloaded and verified
+[16:45:55 DEBUG scheduler.c:77] Scheduler: selected piece 18 (availability=1) from peer 615c34df6a10001ccc5bce9d476d023400370508
+[16:45:55 INFO download.c:77] Requesting piece 19/32 from 615c34df6a10001ccc5bce9d476d023400370508
+[16:45:55 DEBUG disk.c:66] Wrote piece 18 (262144 bytes) to peer/instances/peer2/downloads/file.pdf
+[16:45:55 INFO network.c:169] ✓ Piece 19/32 downloaded and verified
+[16:45:55 DEBUG scheduler.c:77] Scheduler: selected piece 19 (availability=1) from peer 615c34df6a10001ccc5bce9d476d023400370508
+[16:45:55 INFO download.c:77] Requesting piece 20/32 from 615c34df6a10001ccc5bce9d476d023400370508
+[16:45:55 DEBUG disk.c:66] Wrote piece 19 (262144 bytes) to peer/instances/peer2/downloads/file.pdf
+[16:45:55 INFO network.c:169] ✓ Piece 20/32 downloaded and verified
+[16:45:55 DEBUG scheduler.c:77] Scheduler: selected piece 20 (availability=1) from peer 615c34df6a10001ccc5bce9d476d023400370508
+[16:45:55 INFO download.c:77] Requesting piece 21/32 from 615c34df6a10001ccc5bce9d476d023400370508
+[16:45:55 DEBUG disk.c:66] Wrote piece 20 (262144 bytes) to peer/instances/peer2/downloads/file.pdf
+[16:45:55 INFO network.c:169] ✓ Piece 21/32 downloaded and verified
+[16:45:55 DEBUG scheduler.c:77] Scheduler: selected piece 21 (availability=1) from peer 615c34df6a10001ccc5bce9d476d023400370508
+[16:45:55 INFO download.c:77] Requesting piece 22/32 from 615c34df6a10001ccc5bce9d476d023400370508
+[16:45:55 DEBUG disk.c:66] Wrote piece 21 (262144 bytes) to peer/instances/peer2/downloads/file.pdf
+[16:45:55 INFO network.c:169] ✓ Piece 22/32 downloaded and verified
+[16:45:55 DEBUG scheduler.c:77] Scheduler: selected piece 22 (availability=1) from peer 615c34df6a10001ccc5bce9d476d023400370508
+[16:45:55 INFO download.c:77] Requesting piece 23/32 from 615c34df6a10001ccc5bce9d476d023400370508
+[16:45:55 DEBUG disk.c:66] Wrote piece 22 (262144 bytes) to peer/instances/peer2/downloads/file.pdf
+[16:45:55 INFO network.c:169] ✓ Piece 23/32 downloaded and verified
+[16:45:55 DEBUG scheduler.c:77] Scheduler: selected piece 23 (availability=1) from peer 615c34df6a10001ccc5bce9d476d023400370508
+[16:45:55 INFO download.c:77] Requesting piece 24/32 from 615c34df6a10001ccc5bce9d476d023400370508
+[16:45:55 DEBUG disk.c:66] Wrote piece 23 (262144 bytes) to peer/instances/peer2/downloads/file.pdf
+[16:45:55 INFO network.c:169] ✓ Piece 24/32 downloaded and verified
+[16:45:55 DEBUG scheduler.c:77] Scheduler: selected piece 24 (availability=1) from peer 615c34df6a10001ccc5bce9d476d023400370508
+[16:45:55 INFO download.c:77] Requesting piece 25/32 from 615c34df6a10001ccc5bce9d476d023400370508
+[16:45:55 DEBUG disk.c:66] Wrote piece 24 (262144 bytes) to peer/instances/peer2/downloads/file.pdf
+[16:45:55 INFO network.c:169] ✓ Piece 25/32 downloaded and verified
+[16:45:55 DEBUG scheduler.c:77] Scheduler: selected piece 25 (availability=1) from peer 615c34df6a10001ccc5bce9d476d023400370508
+[16:45:55 INFO download.c:77] Requesting piece 26/32 from 615c34df6a10001ccc5bce9d476d023400370508
+[16:45:55 DEBUG disk.c:66] Wrote piece 25 (262144 bytes) to peer/instances/peer2/downloads/file.pdf
+[16:45:55 INFO network.c:169] ✓ Piece 26/32 downloaded and verified
+[16:45:55 DEBUG scheduler.c:77] Scheduler: selected piece 26 (availability=1) from peer 615c34df6a10001ccc5bce9d476d023400370508
+[16:45:55 INFO download.c:77] Requesting piece 27/32 from 615c34df6a10001ccc5bce9d476d023400370508
+[16:45:55 DEBUG disk.c:66] Wrote piece 26 (262144 bytes) to peer/instances/peer2/downloads/file.pdf
+[16:45:55 INFO network.c:169] ✓ Piece 27/32 downloaded and verified
+[16:45:55 DEBUG scheduler.c:77] Scheduler: selected piece 27 (availability=1) from peer 615c34df6a10001ccc5bce9d476d023400370508
+[16:45:55 INFO download.c:77] Requesting piece 28/32 from 615c34df6a10001ccc5bce9d476d023400370508
+[16:45:55 DEBUG disk.c:66] Wrote piece 27 (262144 bytes) to peer/instances/peer2/downloads/file.pdf
+[16:45:55 INFO network.c:169] ✓ Piece 28/32 downloaded and verified
+[16:45:56 DEBUG scheduler.c:77] Scheduler: selected piece 28 (availability=1) from peer 615c34df6a10001ccc5bce9d476d023400370508
+[16:45:56 INFO download.c:77] Requesting piece 29/32 from 615c34df6a10001ccc5bce9d476d023400370508
+[16:45:56 DEBUG disk.c:66] Wrote piece 28 (262144 bytes) to peer/instances/peer2/downloads/file.pdf
+[16:45:56 INFO network.c:169] ✓ Piece 29/32 downloaded and verified
+[16:45:56 DEBUG scheduler.c:77] Scheduler: selected piece 29 (availability=1) from peer 615c34df6a10001ccc5bce9d476d023400370508
+[16:45:56 INFO download.c:77] Requesting piece 30/32 from 615c34df6a10001ccc5bce9d476d023400370508
+[16:45:56 DEBUG disk.c:66] Wrote piece 29 (262144 bytes) to peer/instances/peer2/downloads/file.pdf
+[16:45:56 INFO network.c:169] ✓ Piece 30/32 downloaded and verified
+[16:45:56 DEBUG scheduler.c:77] Scheduler: selected piece 30 (availability=1) from peer 615c34df6a10001ccc5bce9d476d023400370508
+[16:45:56 INFO download.c:77] Requesting piece 31/32 from 615c34df6a10001ccc5bce9d476d023400370508
+[16:45:56 DEBUG disk.c:66] Wrote piece 30 (262144 bytes) to peer/instances/peer2/downloads/file.pdf
+[16:45:56 INFO network.c:169] ✓ Piece 31/32 downloaded and verified
+[16:45:56 DEBUG scheduler.c:77] Scheduler: selected piece 31 (availability=1) from peer 615c34df6a10001ccc5bce9d476d023400370508
+[16:45:56 INFO download.c:77] Requesting piece 32/32 from 615c34df6a10001ccc5bce9d476d023400370508
+[16:45:56 DEBUG disk.c:66] Wrote piece 31 (88176 bytes) to peer/instances/peer2/downloads/file.pdf
+[16:45:56 INFO network.c:169] ✓ Piece 32/32 downloaded and verified
+[16:45:56 INFO download.c:138] Download worker for peer 615c34df6a10001ccc5bce9d476d023400370508 finished
+[16:45:56 INFO main.c:200] Registry: added 64632bd4c1e37fdbf8935e0dfc3b86fcfd60a28f (total: 1)
+[16:45:56 INFO main.c:234] Announced 1 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[16:46:56 INFO main.c:234] Announced 1 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[16:46:56 DEBUG main.c:244] Re-announced 1 file(s) to tracker
+[16:47:56 INFO main.c:234] Announced 1 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[16:47:56 DEBUG main.c:244] Re-announced 1 file(s) to tracker
+[16:48:56 INFO main.c:234] Announced 1 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[16:48:56 DEBUG main.c:244] Re-announced 1 file(s) to tracker
+[16:49:56 INFO main.c:234] Announced 1 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[16:49:56 DEBUG main.c:244] Re-announced 1 file(s) to tracker
+[16:50:56 INFO main.c:234] Announced 1 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[16:50:56 DEBUG main.c:244] Re-announced 1 file(s) to tracker
+[16:51:56 INFO main.c:234] Announced 1 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[16:51:56 DEBUG main.c:244] Re-announced 1 file(s) to tracker
+[16:52:56 INFO main.c:234] Announced 1 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[16:52:56 DEBUG main.c:244] Re-announced 1 file(s) to tracker
+[16:53:56 INFO main.c:234] Announced 1 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[16:53:56 DEBUG main.c:244] Re-announced 1 file(s) to tracker
+[16:54:56 INFO main.c:234] Announced 1 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[16:54:56 DEBUG main.c:244] Re-announced 1 file(s) to tracker
+[16:55:56 INFO main.c:234] Announced 1 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[16:55:56 DEBUG main.c:244] Re-announced 1 file(s) to tracker
+[16:56:56 INFO main.c:234] Announced 1 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[16:56:56 DEBUG main.c:244] Re-announced 1 file(s) to tracker
+[16:57:56 INFO main.c:234] Announced 1 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[16:57:56 DEBUG main.c:244] Re-announced 1 file(s) to tracker
+[16:58:56 INFO main.c:234] Announced 1 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[16:58:56 DEBUG main.c:244] Re-announced 1 file(s) to tracker
+[16:59:56 INFO main.c:234] Announced 1 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[16:59:56 DEBUG main.c:244] Re-announced 1 file(s) to tracker
+[17:00:56 INFO main.c:234] Announced 1 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[17:00:56 DEBUG main.c:244] Re-announced 1 file(s) to tracker
+[17:01:56 INFO main.c:234] Announced 1 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[17:01:56 DEBUG main.c:244] Re-announced 1 file(s) to tracker
+[17:02:56 INFO main.c:234] Announced 1 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[17:02:56 DEBUG main.c:244] Re-announced 1 file(s) to tracker
+[17:03:56 INFO main.c:234] Announced 1 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[17:03:56 DEBUG main.c:244] Re-announced 1 file(s) to tracker
+[17:04:56 INFO main.c:234] Announced 1 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[17:04:56 DEBUG main.c:244] Re-announced 1 file(s) to tracker
+[17:05:56 INFO main.c:234] Announced 1 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[17:05:56 DEBUG main.c:244] Re-announced 1 file(s) to tracker
+[17:06:56 INFO main.c:234] Announced 1 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[17:06:56 DEBUG main.c:244] Re-announced 1 file(s) to tracker
+[17:07:56 INFO main.c:234] Announced 1 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[17:07:56 DEBUG main.c:244] Re-announced 1 file(s) to tracker
+[17:08:56 INFO main.c:234] Announced 1 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[17:08:56 DEBUG main.c:244] Re-announced 1 file(s) to tracker
+[17:09:56 INFO main.c:234] Announced 1 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[17:09:56 DEBUG main.c:244] Re-announced 1 file(s) to tracker
+[17:10:56 INFO main.c:234] Announced 1 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[17:10:56 DEBUG main.c:244] Re-announced 1 file(s) to tracker
+[17:11:56 INFO main.c:234] Announced 1 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[17:11:56 DEBUG main.c:244] Re-announced 1 file(s) to tracker
+[17:12:56 INFO main.c:234] Announced 1 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[17:12:56 DEBUG main.c:244] Re-announced 1 file(s) to tracker
+[17:13:56 INFO main.c:234] Announced 1 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[17:13:56 DEBUG main.c:244] Re-announced 1 file(s) to tracker
+[17:14:56 INFO main.c:234] Announced 1 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[17:14:56 DEBUG main.c:244] Re-announced 1 file(s) to tracker
+[17:15:56 INFO main.c:234] Announced 1 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[17:15:56 DEBUG main.c:244] Re-announced 1 file(s) to tracker
+[17:16:56 INFO main.c:234] Announced 1 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[17:16:56 DEBUG main.c:244] Re-announced 1 file(s) to tracker
+[17:17:56 INFO main.c:234] Announced 1 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[17:17:56 DEBUG main.c:244] Re-announced 1 file(s) to tracker
+[17:18:56 INFO main.c:234] Announced 1 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[17:18:56 DEBUG main.c:244] Re-announced 1 file(s) to tracker
+[17:19:56 INFO main.c:234] Announced 1 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[17:19:56 DEBUG main.c:244] Re-announced 1 file(s) to tracker
+[17:20:56 INFO main.c:234] Announced 1 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[17:20:56 DEBUG main.c:244] Re-announced 1 file(s) to tracker
+[17:21:56 INFO main.c:234] Announced 1 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[17:21:56 DEBUG main.c:244] Re-announced 1 file(s) to tracker
+[17:22:56 INFO main.c:234] Announced 1 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[17:22:56 DEBUG main.c:244] Re-announced 1 file(s) to tracker
+[17:23:50 INFO torrent.c:90] Created torrent: test.txt
+[17:23:50 INFO torrent.c:91]   file_id:      7893d8d8b388d7fd5cee840550ad0de763eb29b8
+[17:23:50 INFO torrent.c:92]   file_size:    61 bytes
+[17:23:50 INFO torrent.c:93]   pieces:       1 × 262144 bytes
+[17:23:50 INFO main.c:423] Stored local torrent: peer/instances/peer2/torrents/7893d8d8b388d7fd5cee840550ad0de763eb29b8.torrent
+[17:23:50 INFO main.c:200] Registry: added 7893d8d8b388d7fd5cee840550ad0de763eb29b8 (total: 2)
+[17:23:50 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[17:23:56 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[17:23:56 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[17:24:56 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[17:24:56 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[17:25:56 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[17:25:56 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[17:26:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[17:26:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[17:27:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[17:27:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[17:28:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[17:28:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[17:29:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[17:29:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[17:30:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[17:30:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[17:31:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[17:31:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[17:32:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[17:32:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[17:33:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[17:33:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[17:34:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[17:34:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[17:35:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[17:35:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[17:36:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[17:36:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[17:37:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[17:37:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[17:38:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[17:38:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[17:39:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[17:39:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[17:40:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[17:40:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[17:41:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[17:41:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[17:42:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[17:42:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[17:43:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[17:43:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[17:44:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[17:44:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[17:45:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[17:45:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[17:46:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[17:46:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[17:47:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[17:47:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[17:48:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[17:48:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[17:49:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[17:49:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[17:50:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[17:50:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[17:51:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[17:51:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[17:52:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[17:52:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[17:53:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[17:53:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[17:54:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[17:54:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[17:55:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[17:55:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[17:56:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[17:56:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[17:57:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[17:57:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[17:58:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[17:58:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[17:59:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[17:59:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[18:00:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[18:00:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[18:01:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[18:01:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[18:02:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[18:02:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[18:03:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[18:03:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[18:04:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[18:04:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[18:05:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[18:05:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[18:06:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[18:06:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[18:07:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[18:07:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[18:08:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[18:08:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[18:09:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[18:09:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[18:10:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[18:10:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[18:11:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[18:11:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[18:12:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[18:12:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[18:13:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[18:13:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[18:14:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[18:14:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[18:15:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[18:15:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[18:16:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[18:16:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[18:17:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[18:17:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[18:18:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[18:18:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[18:19:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[18:19:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[18:20:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[18:20:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[18:21:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[18:21:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[18:22:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[18:22:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[18:23:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[18:23:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[18:24:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[18:24:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[18:25:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[18:25:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[18:26:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[18:26:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[18:27:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[18:27:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[18:28:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[18:28:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[18:29:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[18:29:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[18:30:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[18:30:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[18:31:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[18:31:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[18:32:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[18:32:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[18:33:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[18:33:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[18:34:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[18:34:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[18:35:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[18:35:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[18:36:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[18:36:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[18:37:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[18:37:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[18:38:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[18:38:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[18:39:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[18:39:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[18:40:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[18:40:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[18:41:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[18:41:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[18:42:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[18:42:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[18:43:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[18:43:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[18:44:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[18:44:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[18:45:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[18:45:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[18:46:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[18:46:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[18:47:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[18:47:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[18:48:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[18:48:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[18:49:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[18:49:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[18:50:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[18:50:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[18:51:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[18:51:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[18:52:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[18:52:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[18:53:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[18:53:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[18:54:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[18:54:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[18:55:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[18:55:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[18:56:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[18:56:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[18:57:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[18:57:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[18:58:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[18:58:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[18:59:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[18:59:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[19:00:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[19:00:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[19:01:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[19:01:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[19:02:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[19:02:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[19:03:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[19:03:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[19:04:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[19:04:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[19:05:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[19:05:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[19:06:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[19:06:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[19:07:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[19:07:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[19:08:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[19:08:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[19:09:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[19:09:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[19:10:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[19:10:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[19:11:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[19:11:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[19:12:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[19:12:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[19:13:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[19:13:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[19:14:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[19:14:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[19:15:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[19:15:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[19:16:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[19:16:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[19:17:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[19:17:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[19:18:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[19:18:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[19:19:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[19:19:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[19:20:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[19:20:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[19:21:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[19:21:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[19:22:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[19:22:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[19:23:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[19:23:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[19:24:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[19:24:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[19:25:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[19:25:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[19:26:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[19:26:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[19:27:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[19:27:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[19:28:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[19:28:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[19:29:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[19:29:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[19:30:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[19:30:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[19:31:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[19:31:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[19:32:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[19:32:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[19:33:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[19:33:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[19:34:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[19:34:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[19:35:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[19:35:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[19:36:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[19:36:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[19:37:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[19:37:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[19:38:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[19:38:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[19:39:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[19:39:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[19:40:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[19:40:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[19:41:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[19:41:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[19:42:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[19:42:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[19:43:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[19:43:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[19:44:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[19:44:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[19:45:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[19:45:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[19:46:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[19:46:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[19:47:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[19:47:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[19:48:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[19:48:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[19:49:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[19:49:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[19:50:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[19:50:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[19:51:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[19:51:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[19:52:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[19:52:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[19:53:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[19:53:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[19:54:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[19:54:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[19:55:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[19:55:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[19:56:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[19:56:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[19:57:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[19:57:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[19:58:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[19:58:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[19:59:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[19:59:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[20:00:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[20:00:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[20:01:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[20:01:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[20:02:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[20:02:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[20:03:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[20:03:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[20:04:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[20:04:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[20:05:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[20:05:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[20:06:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[20:06:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[20:07:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[20:07:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[20:08:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[20:08:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[20:09:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[20:09:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[20:10:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[20:10:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[20:11:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[20:11:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[20:12:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[20:12:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[20:13:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[20:13:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[20:14:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[20:14:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[20:15:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[20:15:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[20:16:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[20:16:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[20:17:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[20:17:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[20:18:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[20:18:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[20:19:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[20:19:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[20:20:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[20:20:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[20:21:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[20:21:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[20:22:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[20:22:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[20:23:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[20:23:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[20:24:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[20:24:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[20:25:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[20:25:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
+[20:26:57 INFO main.c:234] Announced 2 file(s) to tracker as bacf190b236a49cc203598c053f5dc57d1477b23
+[20:26:57 DEBUG main.c:244] Re-announced 2 file(s) to tracker
