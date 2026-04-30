@@ -599,5 +599,3 @@ CipherSwarm/
 ```
 
 ---
-
-*End of Report*
